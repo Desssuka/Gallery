@@ -1,0 +1,41 @@
+.page {
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin:20px;
+    font-size: 3rem;
+}
+.pictures {
+    display: grid;
+    grid-column-gap: 24px;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    align-items: start;
+}
+.pictures img{
+    margin: 20px;
+    height: 40vh;
+    min-width: 25vw;
+
+    -webkit-box-shadow: 0px 4px 25px 10px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 4px 25px 10px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 4px 25px 10px rgba(34, 60, 80, 0.2);
+transition: 0.5s ease;
+}
+.pictures img:hover{
+    transition: 0.5s ease;
+    -webkit-box-shadow: 0px 4px 15px 20px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 0px 4px 15px 20px rgba(34, 60, 80, 0.2);
+box-shadow: 0px 4px 15px 20px rgba(34, 60, 80, 0.2);
+}
+
+.loadBtn button {
+    font-size: 2rem;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
