@@ -1,0 +1,20 @@
+.page {
+    height: 91vh;
+    width: 100wv;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.title {
+    font-size:3rem;
+    
+}
